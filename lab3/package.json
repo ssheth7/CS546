@@ -1,0 +1,14 @@
+{
+    "name": "cs-546-lab-3",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Shivam Sheth 10435941",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "axios": "^0.21.1"
+    }
+}
