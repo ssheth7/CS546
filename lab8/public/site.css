@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+form {
+    border: 1px solid blue;
+    font-weight: bold;
+    display: inline-block;
+    background-color: blue;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input {
+    background-color: transparent;
+    text-align: center;
+    border-radius: 50px;
+    background-color: white;
+}
+
+button {
+    border-color: transparent;
+    background-color: blue;
+}
+
+.centered {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+a:link {
+    color: hotpink;
+}
+
+a:visited {
+    color: deepskyblue;
+}
+
+dd {
+    color: fuchsia;
+}
+
+dt {
+    color: teal;
+}

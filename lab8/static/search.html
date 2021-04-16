@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/public/site.css"/>
+    <title>Show Finder</title>
+    <h1> Show Finder</h1>
+  </head>
+  <body>
+    <p> 
+        This search form lets you search the tvmaze api for a show based on a search term.
+        The /shows/:id url will return a tv show of that id if it exists.
+    </p>
+    <form method = "POST" action="http://localhost:3000/search">
+        <label> Search for shows: 
+            <input type="text" name="searchTerm" autofocus placeholder="Enter a show name"/>
+        </label>
+        <button type="submit" value="searchTerm"> Search </button>
+    </form>
+  </body>
+</html>
