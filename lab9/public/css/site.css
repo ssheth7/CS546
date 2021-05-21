@@ -1,0 +1,46 @@
+.is-prime {
+    color: #00E676;
+    text-align: center;
+}
+
+.not-prime {
+    color: #FF3D00;
+    text-align: center;
+}
+
+.error {
+    text-align: center;
+    color: #FF3D00;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+footer p {
+    color: #00E676;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: darkmagenta;
+}
+
+.centered {
+    text-align: center;
+}
+
+button {
+    color: #FF3D00;
+}
+
+button:hover {
+    color: green;
+}
+
+input:focus {
+    color: blue;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

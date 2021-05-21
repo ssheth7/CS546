@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to my site </title>
+    <h1> Welcome to my site </h1>
+  </head>
+  <body>
+    <label for="login-form">Log in</label>
+    <form action = "/login" method="post" id="login-form">
+      <label for="username" >Username</label>
+      <input type="text" name="username" id="username">
+      <label for="password" >Password</label>
+      <input type="password" name="password" id="password">      
+      <button type="submit">Submit</button>
+    </form>
+    {{#if error}}
+    <p >Please provide a valid username and/or password</p>
+    {{/if}}
+  </body>
+</html>

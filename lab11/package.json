@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "axios": "^0.21.1",
+        "express": "^4.17.1"
+    },
+    "name": "cs-546-lab-11",
+    "version": "1.0.0",
+    "main": "app.js",
+    "devDependencies": {},
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Shivam Sheth 10435941",
+    "license": "ISC",
+    "description": ""
+}
